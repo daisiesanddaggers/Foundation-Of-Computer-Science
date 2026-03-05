@@ -132,3 +132,9 @@ The ER diagram below uses Chen notation and shows the three entities (Student, M
 - One **Student** can enrol in many **Memberships**
 - One **Club** can have many **Memberships**
 - **Membership** acts as a bridge table resolving the many-to-many relationship
+---
+## Image Credits
+
+All diagrams (Fig-1 to Fig-4) were originally created by Aayush Kadel using [Canva](https://www.canva.com) for this assignment.
+
+---

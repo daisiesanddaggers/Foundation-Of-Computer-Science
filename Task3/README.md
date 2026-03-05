@@ -135,6 +135,6 @@ The ER diagram below uses Chen notation and shows the three entities (Student, M
 ---
 ## Image Credits
 
-All diagrams (Fig-1 to Fig-4) were originally created by Aayush Kadel using [Canva](https://www.canva.com) for this assignment.
+Figure was originally created by Aayush Kadel using [Canva](https://www.canva.com) for this assignment.
 
 ---

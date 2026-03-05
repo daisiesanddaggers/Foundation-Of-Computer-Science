@@ -90,6 +90,12 @@ Shows the full data flow: Sender Email Client → Base64 Encoding → SMTP Trans
 
 ---
 
+## Image Credits
+
+All diagrams (Fig-1 to Fig-4) were originally created by Aayush Kadel using [Canva](https://www.canva.com) for this assignment.
+
+---
+
 ## References
 
 1. Forouzan, B. A. (2013) *Data Communications and Networking.*

@@ -1,22 +1,22 @@
 from itertools import permutations
 
 # just a list of students in my class
-my_classmates = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
+my_classmates = ["Friend1", "Friend2", "Friend3", "Friend4", "Friend5"]
 
 # these pairs are friends, they cant sit next to each other
 friend_pairs = [
-    ("Alice", "Bob"),
-    ("Charlie", "Diana"),
-    ("Bob", "Eve")
+    ("Friend1", "Friend3"),
+    ("Friend4", "Friend2"),
+    ("Friend5", "Friend1")
 ]
 
 # where each student is from
 home_city = {
-    "Alice":   "Kathmandu",
-    "Bob":     "Pokhara",
-    "Charlie": "Kathmandu",
-    "Diana":   "Pokhara",
-    "Eve":     "Butwal"
+    "Friend1":   "Kathmandu",
+    "Friend2":     "Chitwan",
+    "Friend3": "Kathmandu",
+    "Friend4":   "Pokhara",
+    "Friend5":     "Lalitpur"
 }
 
 
@@ -42,7 +42,7 @@ def check_if_arrangement_is_ok(my_arrangement):
 # try every single possible order and see which ones work
 def try_every_arrangement(my_classmates):
     print("=" * 55)
-    print("   BRUTE FORCE - trying every possible arrangement")
+    print("   BRUTE FORCING....")
     print("=" * 55)
 
     how_many_tried = 0
@@ -77,7 +77,7 @@ def try_every_arrangement(my_classmates):
         running_total *= n
         print(f"  {n:<15} {running_total:,}")
 
-    print("\nYou can see why this gets impossible for big classes!")
+    print("\nToo big! No possible for large number of student in class!")
 
 
 try_every_arrangement(my_classmates)

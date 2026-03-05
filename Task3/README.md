@@ -20,7 +20,7 @@ This task demonstrates the full database design process for a College Club Membe
 | `schema.sql` | Creates the three normalised tables: Student, Club, Membership |
 | `insert.sql` | Seeds all student, club and membership data from the report |
 | `queries.sql` | SELECT and INNER JOIN queries for Task 4 and Task 5 |
-| `ER_Diagram.png` | Entity Relationship Diagram in Chen notation (Task 3) |
+| `image/ER Diagram - College Club Membership Database (3NF).png` | Entity Relationship Diagram in Chen notation (Task 3) |
 
 ---
 
@@ -127,7 +127,7 @@ Or open each file inside **MySQL Workbench** and execute them one by one in the 
 
 The ER diagram below uses Chen notation and shows the three entities (Student, Membership, Club) and their relationships.
 
-![ER Diagram](ER_Diagram.png)
+![ER Diagram](image/ER%20Diagram%20-%20College%20Club%20Membership%20Database%20(3NF).png)
 
 - One **Student** can enrol in many **Memberships**
 - One **Club** can have many **Memberships**

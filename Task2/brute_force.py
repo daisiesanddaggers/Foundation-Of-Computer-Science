@@ -77,7 +77,7 @@ def try_every_arrangement(my_classmates):
         running_total *= n
         print(f"  {n:<15} {running_total:,}")
 
-    print("\nToo big! No possible for large number of student in class!")
+    print("\nToo big! Not possible for large number of student in class!")
 
 
 try_every_arrangement(my_classmates)

@@ -1,21 +1,21 @@
 
 # just a list of students in my class
-my_classmates = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
+my_classmates = ["Friend1", "Friend2", "Friend3", "Friend4", "Friend5"]
 
 # these pairs are friends, they cant sit next to each other
 friend_pairs = [
-    ("Alice", "Bob"),
-    ("Charlie", "Diana"),
-    ("Bob", "Eve")
+    ("Friend1", "Friend3"),
+    ("Friend4", "Friend2"),
+    ("Friend5", "Friend1")
 ]
 
 # where each student is from
 home_city = {
-    "Alice":   "Kathmandu",
-    "Bob":     "Pokhara",
-    "Charlie": "Kathmandu",
-    "Diana":   "Pokhara",
-    "Eve":     "Butwal"
+    "Friend1":   "Kathmandu",
+    "Friend2":     "Chitwan",
+    "Friend3": "Kathmandu",
+    "Friend4":   "Pokhara",
+    "Friend5":     "Lalitpur"
 }
 
 
